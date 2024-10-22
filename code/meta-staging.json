@@ -18,7 +18,7 @@
     },
     {
       "file": "./code/constant.js",
-      "name": "constant",
+      "name": "PIPELINE_VERSION",
       "description": "constant values used in the code",
       "language": "javascript"
     },
