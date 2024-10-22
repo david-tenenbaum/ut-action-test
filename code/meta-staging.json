@@ -17,9 +17,9 @@
       "language": "javascript"
     },
     {
-      "file": "./code/formatEvent.js",
-      "name": "formatEvent",
-      "description": "formats legacy and v1_events which are null into v1_events",
+      "file": "./code/constant.js",
+      "name": "constant",
+      "description": "constant values used in the code",
       "language": "javascript"
     }
   ]
