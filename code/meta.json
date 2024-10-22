@@ -1,0 +1,20 @@
+{
+  "transformations": [
+    {
+      "file": "./code/transformEvent.js",
+      "name": "TransformEvent",
+      "description": "Standardizes event names and retains the original event name in the properties",
+      "language": "javascript",
+      "test-input-file": "./code/tests/transform_event_name_input.json",
+      "expected-output": "./code/tests/transform_event_name_expected.json"
+    }
+  ],
+  "libraries": [
+    {
+      "file": "./code/getTransformedEvent.js",
+      "name": "getTransformedEvent",
+      "description": "javascript library to transform the top-level event",
+      "language": "javascript"
+    }
+  ]
+}

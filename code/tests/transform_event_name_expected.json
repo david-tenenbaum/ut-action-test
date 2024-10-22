@@ -1,0 +1,44 @@
+[
+  {
+    "channel": "server",
+    "context": {
+      "library": {
+        "name": "rudderanalytics-ruby",
+        "version": "3.0.0"
+      }
+    },
+    "event": "transformed-event",
+    "integrations": {
+      "All": true
+    },
+    "messageId": "660a8318-fffc-47e9-827b-f5cb715af5a7",
+    "properties": {
+      "app_name": "ezrails",
+      "browser": "Generic Browser 0",
+      "browser_full_version": "0.0",
+      "browser_name": "Generic Browser",
+      "browser_version": "0",
+      "category": "login",
+      "client": "web",
+      "created_at": "2024-03-08T15:07:06.798Z",
+      "device_name": "Unknown",
+      "email": null,
+      "event_name": "Login: checkout-create-account",
+      "language": null,
+      "platform_name": "Other",
+      "project": "ez_rails",
+      "source": "ruby",
+      "tracking_id": "bbbf5311-9e0f-4177-8ad4-ad7b12901beb",
+      "type": "track",
+      "unique_record_id": "05319d72-7ed1-4706-9ddf-022f08d7bf33",
+      "user_agent": null,
+      "utm_medium": "direct",
+      "utm_source": "direct"
+    },
+    "rudderId": "c87ef7eb-7852-4b05-b66a-e030f1951718",
+    "sentAt": "2024-03-08T15:07:16.514Z",
+    "timestamp": "2024-03-08T15:07:16.514Z",
+    "type": "track",
+    "userId": "bbbf5311-9e0f-4177-8ad4-ad7b12901beb"
+  }
+]

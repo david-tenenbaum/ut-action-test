@@ -1,0 +1,70 @@
+[
+  {
+    "anonymousId": "5be8318d-1c20-486e-9b4b-c6d0b1308646",
+    "channel": "web",
+    "context": {
+      "app": {
+        "name": "RudderLabs JavaScript SDK",
+        "namespace": "com.rudderlabs.javascript",
+        "version": "3.1.1"
+      },
+      "campaign": {},
+      "eventClient": {
+        "name": "tracker-js",
+        "version": "4.5.0"
+      },
+      "library": {
+        "name": "RudderLabs JavaScript SDK",
+        "version": "3.1.1"
+      },
+      "locale": "en-US",
+      "os": {
+        "name": "",
+        "version": ""
+      },
+      "page": {
+        "initial_referrer": "https://locations.carrabbas.com/",
+        "initial_referring_domain": "locations.carrabbas.com",
+        "path": "/catering/carrabbas-italian-grill-saint-petersburg-tyrone-blvd-n",
+        "referrer": "https://locations.carrabbas.com/",
+        "referring_domain": "locations.carrabbas.com",
+        "search": "",
+        "tab_url": "https://www.ezcater.com/catering/pvt/carrabbas-italian-grill-saint-petersburg-tyrone-blvd-n",
+        "title": "Carrabba's Italian Grill Catering in Saint Petersburg, FL - 3530 Tyrone Blvd N - Delivery Menu",
+        "url": "https://www.ezcater.com/catering/carrabbas-italian-grill-saint-petersburg-tyrone-blvd-n"
+      },
+      "screen": {
+        "density": 3,
+        "height": 926,
+        "innerHeight": 742,
+        "innerWidth": 428,
+        "width": 428
+      },
+      "service": {
+        "name": "Store"
+      },
+      "sessionId": 1729532955746,
+      "timezone": "GMT-0500",
+      "traits": {},
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Mobile/15E148 Safari/604.1"
+    },
+    "event": "ungoverned",
+    "integrations": {
+      "All": true
+    },
+    "messageId": "da11c00e-dca5-4705-9f0c-3a2bb175f8fc",
+    "originalTimestamp": "2024-10-21T17:58:31.605Z",
+    "properties": {
+      "event_name": "item-viewed",
+      "legacy_event": "{\"apiUrl\":\"https://tracking.ezcater.com/graphql\",\"eventName\":\"item-viewed\",\"namespace\":\"Store\",\"properties\":{\"caterer_id\":\"7038\",\"misc_json\":\"{\\\"imageShown\\\":null,\\\"privateStore\\\":true,\\\"orderUUID\\\":null,\\\"fulfillment_detail_id\\\":null,\\\"consumer_cart_id\\\":null,\\\"required_option\\\":false,\\\"is_group_order_owner\\\":null,\\\"is_group_order_eater\\\":null,\\\"fbp\\\":\\\"fb.1.1729532957099.567632525657492476\\\",\\\"can_be_quick_added\\\":false}\",\"menu_item_id\":\"508f1834-af6b-41ad-94e9-4240837fb929\",\"page\":\"CatererShow\",\"sub_category\":\"menu\",\"url\":\"https://www.ezcater.com/catering/pvt/carrabbas-italian-grill-saint-petersburg-tyrone-blvd-n\",\"unique_record_id\":\"08895cf6-ce96-440c-9ee4-1b95faf87f20\"},\"trackingId\":\"2d1785e2-d206-4339-b182-2b438ecae097\"}",
+      "sub_category": "menu",
+      "tracking_id": "2d1785e2-d206-4339-b182-2b438ecae097"
+    },
+    "receivedAt": "2024-10-21T17:58:31.704Z",
+    "request_ip": "2601:248:4100:53f0:e55e:dcf:d1cd:18f7",
+    "rudderId": "669d6704-423a-4f3f-85c9-219907877c2e",
+    "sentAt": "2024-10-21T17:58:31.605Z",
+    "type": "track",
+    "userId": "2d1785e2-d206-4339-b182-2b438ecae097"
+  }
+]
