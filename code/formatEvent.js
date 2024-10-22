@@ -1,6 +1,6 @@
-import { PIPELINE_VERSION } from 'constant';
+// import { PIPELINE_VERSION } from 'constant';
 
-export function formatEvent(payload) {
+export function formatEvent(payload, pipelineVersion) {
   const args = payload.properties;
 
   // Check if v1_event is null or "null"
@@ -11,7 +11,7 @@ export function formatEvent(payload) {
       v1_event: {
         tracking_id: args.tracking_id.toString(),
         app_name: rawEvent.application || args.sub_category, // Can be either application or sub_category
-        pipeline_version: PIPELINE_VERSION,
+        pipeline_version: pipelineVersion,
         created_at: Math.floor(Date.now()), // Ensure its an integer in milliseconds
         raw_event: JSON.stringify(rawEvent), // Convert to JSON format
       },
