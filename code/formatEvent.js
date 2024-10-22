@@ -1,4 +1,4 @@
-import { PIPELINE_VERSION } from './constant';
+import PIPELINE_VERSION from './constant';
 
 export function formatEvent(payload) {
   const args = payload.properties;
