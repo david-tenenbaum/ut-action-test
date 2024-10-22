@@ -49,8 +49,8 @@ jobs:
         uses: rudderlabs/rudder-transformation-action@1.1.0
         with:
           metaPath: './code/meta-staging.json'
-          email: ${{ secrets.STAGING_ACCESS_EMAIL }}
-          accessToken: ${{ secrets.STAGING_ACCESS_TOKEN }}
+          email: 'david.tenenbaum@rudderstack.com'
+          accessToken: '2nnd9H264ouqphBWuKppmzPTWBN'
           uploadTestArtifact: true
 
       # Deploy to RudderStack for Production
@@ -59,8 +59,8 @@ jobs:
         uses: rudderlabs/rudder-transformation-action@1.1.0
         with:
           metaPath: './code/meta.json'
-          email: ${{ secrets.ACCESS_EMAIL }}
-          accessToken: ${{ secrets.ACCESS_TOKEN }}
+          email: 'david.tenenbaum@rudderstack.com'
+          accessToken: '2nnd9H264ouqphBWuKppmzPTWBN'
           uploadTestArtifact: true
 
       - name: Collect Debug Information
